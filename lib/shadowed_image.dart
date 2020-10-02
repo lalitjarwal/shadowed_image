@@ -1,4 +1,4 @@
-library ShadowedImage;
+library shadowed_image;
 
 import 'dart:ui';
 
