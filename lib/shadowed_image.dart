@@ -57,4 +57,3 @@ class ShadowedImage extends StatelessWidget {
     );
   }
 }
-
