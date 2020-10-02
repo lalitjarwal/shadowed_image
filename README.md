@@ -1,4 +1,4 @@
-# ShadowedImage 1.0.0
+# shadowed_image 1.0.0
 
 Package for creating shadow of same color scheme as the image.
 
@@ -10,17 +10,18 @@ Package for creating shadow of same color scheme as the image.
 1. Add this to your package's `pubspec.yaml` file:
 
 ```yaml
-shadow ^1.0.0
+dependencies:
+  shadowed_image: ^1.0.0
 ```
-2. Import the dependency into your dart file:
+2. Import the package into your dart file:
 
 ```dart
-import 'package:flutter/shadow.dart';
+import 'package:shadowed_image/shadowed_image.dart';
 ```
 ## Usage
 
 ```dart
-import 'shadow.dart';
+import 'package:shadowed_image/shadowed_image.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(AppBody());
