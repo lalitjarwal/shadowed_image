@@ -1,4 +1,3 @@
-# shadowed_image 1.0.0
 
 Package for creating shadow of same color scheme as the image.
 
