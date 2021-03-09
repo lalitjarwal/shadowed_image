@@ -2,16 +2,14 @@
 
 Package for creating shadow of same color scheme as the image.
 
-![Example 1](https://raw.githubusercontent.com/lalitjarwal/shadowed_image/master/images/final1.jpeg)
-![Example 2](https://github.com/lalitjarwal/shadowed_image/blob/master/images/horizontalLV.gif?raw=true)
-![Example 3](https://github.com/lalitjarwal/shadowed_image/blob/master/images/vertical.gif?raw=true)
+![Example ](https://raw.githubusercontent.com/lalitjarwal/shadowed_image/master/images/shadow%20snap.jpg)
 ## Installation
 
 1. Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  shadowed_image: ^1.0.0
+  shadowed_image: ^latest
 ```
 2. Import the package into your dart file:
 
@@ -46,11 +44,9 @@ class _AppBodyState extends StatelessWidget {
 
 3. Offset offset  // Position of shadow. Takes 2 arguments- first one (dx) for horizontal component and second (dy) for vertical component.
 
-4. double opacity  // Decides how much opaque the shadow must be.
+4. double blurRadius // Amount of blur in the shadow. 0 means no blur.
 
-5. double blurRadius // Amount of blur in the shadow. 0 means no blur.
-
-6. Image image (@required) // The image.
+5. Image image (@required) // The image.
 
 ```
 ## Note
