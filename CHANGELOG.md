@@ -1,3 +1,5 @@
+## [1.0.2] - 03 March 2021
+
 ## [1.0.1] - 02 October 2020
 
 * bug Removed.
