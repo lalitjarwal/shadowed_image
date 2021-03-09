@@ -11,22 +11,22 @@ class ShadowedImage extends StatelessWidget {
   final Key? key;
 
   /// Represents the size of shadow that how big shadow the image will have.
-  /// 
+  ///
   /// Default to 1.0 .
   final double scale;
 
   /// Position of the shadow wil determined by the [offset].
-  /// 
+  ///
   /// Default to `Offset(8.0,8.0)`
   final Offset offset;
 
   /// Clips the image into a circular path.
-  /// 
+  ///
   /// Default to 0.0 .
   final double borderRadius;
 
   /// The ammount of [Gaussian Blur] in the image.
-  /// 
+  ///
   /// Default to 8.0 .
   final double blurRadius;
 
